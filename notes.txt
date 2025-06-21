@@ -1,0 +1,89 @@
+1. idea
+were going to build an ... app that allows us to ...
+
+markdown -> translate -> html
+so it's a way of writing html
+in an easy way without tags
+
+--------------
+Fullstack framework
+--------------
+
+markup language -> html
+
+typescript -> javascript
+
+rules
+# -> h1
+###### -> h6
+####### -> p
+dasdjasdkla -> p
+there must be a space between # and other things and the actual
+text other wise this line will be treated as a paragraph
+
+* -> unordered list
+*
+* hello
+world -> this will be part of the hello li to seperate it and
+treat it as a seperate paragraph we need a blank line
+like this:
+* hello
+
+world -> now world is a p not part of li
+this is for paragraph if it was a heading
+* hello
+# world -> this h1 will not be part of li (don't need a blank line)
+
+any valid html is valid markdown
+
+--------
+design things
+figma
+make gradients
+--------
+choosing a fullstack framework
+tried
+-sveltekit
+-nuxt3
+-remix
+-next.js
+
+criteria
+-not in beta, stable, well-tested
+
+ecosystem
+
+---------
+Initial Planning
+	- epic user sotries -> are written from the perspective of a user
+		-user roles
+		- as a [persona] i want to [] so that []
+		- you can be more than one user role
+		MVP -> Minimum Viable Product
+		-Constriants
+			- Show be SEO / responsive ...
+		Agile
+		-Estimating time -> relative to things you know will take x time
+		so you estimate relative on that
+			-fib
+			-t-shirt sizes
+	- design initial pages
+	- design database schema
+
+-name of the app
+-domain name
+making a github repo
+github projects
+---------
+project management tool
+-trello
+-github projects
+...
+
+-------------
+Database migrations
+ORM -> Object Relational Mapper
+Code model -> raw sql
+when i change the model and I create a migration that can
+be run aganist my database when the migration is run it
+changes the database
